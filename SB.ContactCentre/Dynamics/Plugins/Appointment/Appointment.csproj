@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DynamicsKey.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>Appointment</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.0.79" />
+  </ItemGroup>
+  <Import Project="..\..\..\SB.Shared\SB.Shared.projitems" Label="Shared" />
+  <Import Project="..\..\..\GraphApi\GraphApi.projitems" Label="Shared" />
+
+</Project>

@@ -1,0 +1,396 @@
+{
+  "Entities": [
+    {
+      "Fields": [
+        {
+          "DisplayName": "First Name",
+          "LogicalName": "firstname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Middle Name",
+          "LogicalName": "sb_middlename",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Middle Name",
+          "LogicalName": "middlename",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Last Name",
+          "LogicalName": "lastname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Email",
+          "LogicalName": "emailaddress1",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Language",
+          "LogicalName": "sb_language",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Gender",
+          "LogicalName": "gendercode",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Birthday",
+          "LogicalName": "birthdate",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Mobile Phone",
+          "LogicalName": "mobilephone",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Full Name",
+          "LogicalName": "fullname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Email Address 2",
+          "LogicalName": "emailaddress2",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Email Address 3",
+          "LogicalName": "emailaddress3",
+          "EntityLogicalName": "contact"
+        }
+      ],
+      "LogicalName": "contact",
+      "DisplayName": "Contact",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "contactid",
+      "PrimaryNameAttribute": "fullname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "User Name",
+          "LogicalName": "sb_username",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "User Password",
+          "LogicalName": "sb_userpassword",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Token Lifetime",
+          "LogicalName": "sb_tokenlifetime",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Phone calls for the day",
+          "LogicalName": "sb_phonecallsfortheday",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Phone Calls Closing",
+          "LogicalName": "sb_phonecallsclosing",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "D365URL",
+          "LogicalName": "sb_d365url",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "App Id",
+          "LogicalName": "sb_appid",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Call back time",
+          "LogicalName": "sb_callbacktime",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Default Phone Call Form",
+          "LogicalName": "sb_defaultphonecallform",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Account",
+          "LogicalName": "sb_account",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "ClientId",
+          "LogicalName": "sb_clientid",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "ClientSecret",
+          "LogicalName": "sb_clientsecret",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Password",
+          "LogicalName": "sb_password",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Tenant",
+          "LogicalName": "sb_tenant",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        },
+        {
+          "DisplayName": "Security role for changed field",
+          "LogicalName": "sb_securityrole",
+          "EntityLogicalName": "sb_sbcustomsettings"
+        }
+      ],
+      "LogicalName": "sb_sbcustomsettings",
+      "DisplayName": "SB Custom Settings",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_sbcustomsettingsid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Call back date",
+          "LogicalName": "sb_callbackdate",
+          "EntityLogicalName": "sb_task"
+        },
+        {
+          "DisplayName": "Contact",
+          "LogicalName": "sb_contactid",
+          "EntityLogicalName": "sb_task"
+        },
+        {
+          "DisplayName": "Phone Number ",
+          "LogicalName": "sb_phonenumber",
+          "EntityLogicalName": "sb_task"
+        },
+        {
+          "DisplayName": "Task Type",
+          "LogicalName": "sb_tasktype",
+          "EntityLogicalName": "sb_task"
+        },
+        {
+          "DisplayName": "Phone Call",
+          "LogicalName": "sb_phonecallid",
+          "EntityLogicalName": "sb_task"
+        }
+      ],
+      "LogicalName": "sb_task",
+      "DisplayName": "Task",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_taskid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Phone Number ",
+          "LogicalName": "sb_phonenumber",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Line",
+          "LogicalName": "sb_linenumberid",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Contact",
+          "LogicalName": "sb_contactid",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Direction",
+          "LogicalName": "sb_direction",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Birthday",
+          "LogicalName": "sb_dateofbirth",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Call Type",
+          "LogicalName": "sb_calltype",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Task",
+          "LogicalName": "sb_taskid",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "ID",
+          "LogicalName": "sb_id",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Status",
+          "LogicalName": "statecode",
+          "EntityLogicalName": "sb_call"
+        },
+        {
+          "DisplayName": "Created On",
+          "LogicalName": "createdon",
+          "EntityLogicalName": "sb_call"
+        }
+      ],
+      "LogicalName": "sb_call",
+      "DisplayName": "Call",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_callid",
+      "PrimaryNameAttribute": "sb_id"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Call Centre Line Name",
+          "LogicalName": "sb_line",
+          "EntityLogicalName": "sb_callcenterline"
+        },
+        {
+          "DisplayName": "Line Number",
+          "LogicalName": "sb_linenumber",
+          "EntityLogicalName": "sb_callcenterline"
+        },
+        {
+          "DisplayName": "Phone calls for the day",
+          "LogicalName": "sb_phonecallsfortheday",
+          "EntityLogicalName": "sb_callcenterline"
+        }
+      ],
+      "LogicalName": "sb_callcenterline",
+      "DisplayName": "Call Center Line",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_callcenterlineid",
+      "PrimaryNameAttribute": "sb_linenumber"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Required Attendees",
+          "LogicalName": "requiredattendees",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Optional Attendees",
+          "LogicalName": "optionalattendees",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Subject",
+          "LogicalName": "subject",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Location",
+          "LogicalName": "location",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Online Meeting",
+          "LogicalName": "sb_isonlinemeeting",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Regarding",
+          "LogicalName": "regardingobjectid",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Start Time",
+          "LogicalName": "scheduledstart",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "End Time",
+          "LogicalName": "scheduledend",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "All Day Event",
+          "LogicalName": "isalldayevent",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Meeting Id",
+          "LogicalName": "sb_meetingid",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Description",
+          "LogicalName": "description",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Owner",
+          "LogicalName": "ownerid",
+          "EntityLogicalName": "appointment"
+        },
+        {
+          "DisplayName": "Status",
+          "LogicalName": "statecode",
+          "EntityLogicalName": "appointment"
+        }
+      ],
+      "LogicalName": "appointment",
+      "DisplayName": "Appointment",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "activityid",
+      "PrimaryNameAttribute": "subject"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Primary Email",
+          "LogicalName": "internalemailaddress",
+          "EntityLogicalName": "systemuser"
+        }
+      ],
+      "LogicalName": "systemuser",
+      "DisplayName": "User",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "systemuserid",
+      "PrimaryNameAttribute": "fullname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Address ",
+          "LogicalName": "addressused",
+          "EntityLogicalName": "activityparty"
+        },
+        {
+          "DisplayName": "Party",
+          "LogicalName": "partyid",
+          "EntityLogicalName": "activityparty"
+        }
+      ],
+      "LogicalName": "activityparty",
+      "DisplayName": "Activity Party",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "activitypartyid",
+      "PrimaryNameAttribute": "partyidname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Name",
+          "LogicalName": "name",
+          "EntityLogicalName": "role"
+        }
+      ],
+      "LogicalName": "role",
+      "DisplayName": "Security Role",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "roleid",
+      "PrimaryNameAttribute": "name"
+    }
+  ],
+  "DefaultNamespace": "SB.Shared.Models.Dynamics"
+}
